@@ -1,0 +1,306 @@
+/*css reset*/			
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+/*main*/
+			html, body {
+				scroll-behavior: smooth;
+			}	
+			.menu{
+				/* font-size: 0; */
+				/* text-align: center; */
+				/* margin: 0;
+				padding: 10px; */
+			}
+			ul{
+				text-align: center;
+				font-size: 0;
+			}
+			li{
+				display: inline-block;
+				background:chocolate;
+				font-size: 40px;
+				border: 2;
+			}
+			li+li{
+				border-left: 2px solid brown;
+			}
+			ul li a{
+				text-decoration: none;
+				color:antiquewhite;
+				text-transform: uppercase;
+				padding: 10px 20px;
+				display: block;
+			}
+			h1{
+				text-align: center;
+				text-decoration: underline;
+				font-size: 45px;
+				line-height: 1.5;
+			}
+			h2{
+				color: saddlebrown;
+				text-align: center;
+				font-size: 35px;
+				line-height: 1.5;
+			}
+			h3{
+				color: saddlebrown;
+				text-align: center;
+				font-size: 30px;
+				line-height: 1.5;
+			}
+			p{
+				font-size: 25px;
+				line-height: 1.5;
+			}
+			.main{
+				color: chocolate;
+				background: lemonchiffon;
+				font-size: 20px;
+				width: 1200px;
+				margin: 0 auto;
+				font-family: Georgia;
+				padding: 20px 30px;
+				border: 10px solid goldenrod;		
+			}
+			.list{
+				background: lemonchiffon;
+				width: 1200px;
+				height: 300px;
+				overflow-x: auto;
+				margin: 0 auto;
+				padding-right: 10px;
+				box-sizing: border-box;
+			}
+			.theatres{
+				text-align: justify;
+			}
+			.img{
+				text-align: center;
+			}
+/* t_cell */
+			div{
+				outline: 2px solid lightsalmon;
+			}
+			.wrapper_t{
+				width: 1200px;
+				margin: 0 auto;
+				background: lightblue;
+				padding: 50px 0;
+			}
+			.first{
+				background: red;
+			}
+			.first_1{
+				width: 400px;
+				display: table-cell;
+
+			}
+			.second{
+				background: orangered;
+			}
+
+			.third{
+				background: yellow;
+			}
+			.fourth{
+				background: green;
+			}
+			.second_left{
+				width: 800px;
+				display: table-cell;
+			}
+			.second_right{
+				width: 400px;
+				display: table-cell;
+			}
+			.third_left{
+				width: 400px;
+				display: table-cell;
+			}
+			.third_right{
+				width: 800px;
+				display: table-cell;
+			}
+			.third_right_bottom1{
+				width: 400px;
+				display: table-cell;
+			}
+			.third_right_bottom2{
+				width: 400px;
+				display: table-cell;
+			}
+			.fourth_left{
+				width: 800px;
+				display: table-cell;
+			}
+			.fourth_left_bottom_left{
+				width: 400px;
+				display: table-cell;
+			}
+			.fourth_left_bottom_right{
+				width: 400px;
+				display: table-cell;
+			}
+			.fourth_left_bottom_left_top{
+				display: block;
+			}
+			.fourth_left_bottom_left_bottom{
+				display: block;
+			}
+			.fourth_left_bottom_left_bottom1{
+				width: 200px;
+				display: table-cell;
+			}
+			.fourth_left_bottom_left_bottom2{
+				width: 200px;
+				display: table-cell;
+			}
+			.fourth_right{
+				width: 400px;
+				display: table-cell;
+			}
+/* in_bl */
+			.wrapper_in{
+				width: 1200px;
+				margin: 0 auto;
+				background: lightblue;
+				padding: 50px 0;
+			}
+			.first_in{
+				background: red;
+				font-size: 0px;
+			}
+			.first_1_in{
+				width: 400px;
+				font-size: 20px;
+				display: inline-block;
+
+			}
+			.second_in{
+				background: orangered;
+				font-size: 0px;
+			}
+
+			.third_in{
+				background: yellow;
+				font-size: 0px;
+			}
+			.fourth_in{
+				background: green;
+				font-size: 0px;
+			}
+			.second_left_in{
+				width: 800px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.second_right_in{
+				width: 400px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.third_left_in{
+				width: 400px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.third_right_in{
+				width: 800px;
+				font-size: 0px;
+				display: inline-block;
+			}
+			.third_right_top_in{
+				font-size: 20px;
+			}
+			.third_right_bottom1_in{
+				width: 400px;
+				font-size: 15px;
+				display: inline-block;
+			}
+			.third_right_bottom2_in{
+				width: 400px;
+				font-size: 15px;
+				display: inline-block;
+			}
+			.fourth_left_in{
+				width: 800px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.fourth_left_bottom_in{
+				font-size: 0px;
+			}
+			.fourth_left_bottom_left_in{
+				width: 400px;
+				display: inline-block;
+			}
+			.fourth_left_bottom_right_in{
+				width: 400px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.fourth_left_bottom_left_top_in{
+				width: 400px;
+				font-size: 20px;
+			}
+			.fourth_left_bottom_left_bottom_in{
+				width: 400px;
+				font-size: 0px;
+			}
+			.fourth_left_bottom_left_bottom1_in{
+				width: 200px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.fourth_left_bottom_left_bottom2_in{
+				width: 200px;
+				font-size: 20px;
+				display: inline-block;
+			}
+			.fourth_right_in{
+				width: 400px;
+				font-size: 20px;
+				display: inline-block;
+			}
